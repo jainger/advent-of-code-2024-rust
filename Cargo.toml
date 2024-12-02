@@ -1,0 +1,15 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ferris-says = "0.3.2"
+
+[[bin]]
+name = "day01a"
+path = "src/day01/a/main.rs"
+
+[[bin]]
+name = "day01b"
+path = "src/day01/b/main.rs"
